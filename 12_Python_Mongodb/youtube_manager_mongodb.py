@@ -1,7 +1,7 @@
 import pymongo
 from bson import ObjectId
 
-client=pymongo.MongoClient("mongodb+srv://engineeransh2_db_user:hNtSoUZ5Zomsh7DQ@cluster0.53ixnwb.mongodb.net/",tlsallowinvalidcertificates=True)
+client=pymongo.MongoClient("mongodb+srv://engineeransh2_db_user:<dbpassword>cluster0.53ixnwb.mongodb.net/",tlsallowinvalidcertificates=True)
 #Not a good practice to include id and password in code files
 #tlsallowinvalidcertificates=True not a good way to handle ssl
 
